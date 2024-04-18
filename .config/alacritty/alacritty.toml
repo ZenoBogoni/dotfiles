@@ -1,0 +1,8 @@
+import = ["/home/zeno/.config/alacritty/themes/themes/github_dark.yml"]
+
+[font.normal]
+family = "MesloLGS NF"
+
+[window]
+opacity = 0.9
+padding = { x = 10, y = 1} 
