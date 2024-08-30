@@ -1,0 +1,62 @@
+{
+    "redhat.telemetry.enabled": false,
+    "C_Cpp.formatting": "clangFormat",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnPaste": true,
+    "html.format.wrapLineLength": 0,
+    
+    "editor.tokenColorCustomizations": {
+    
+        "textMateRules": [
+            {
+                    "scope": [
+                        "comment",
+                        "comment.block",
+                        "comment.line"
+                    ],
+                    "settings": {
+                        "foreground": "#666" 
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#cf9743" // Your desired color for function names
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "variable.other",
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#a3a3a3" // Change this to your desired color for variables
+                    }
+                },
+                {
+                    "scope": [
+                        "string",
+                        "string.quoted",
+                        "string.quoted.double",
+                        "string.quoted.single"
+                    ],
+                    "settings": {
+                        "foreground": "#5e8178" // Change this to your desired color for strings (blue in this example)
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.control",
+                        // "keyword.operator"
+                    ],
+                    "settings": {
+                        "foreground": "#64d156" // Change this to your desired color for keywords (orange in this example)
+                    }
+                }
+        ]
+    },
+    "java.saveActions.organizeImports": true,
+    
+}
